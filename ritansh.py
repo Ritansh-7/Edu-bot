@@ -21,7 +21,7 @@ def response_generator(prompt):
         yield word + " "
         time.sleep(0.05)
 
-st.title("Edu-bot 🧑‍🏫")
+st.title("Edu-bot ")
 
 # Initialize chat history
 if "messages" not in st.session_state:
